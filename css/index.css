@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #6E757D;
   }
 
-  
+  .footer__logo {
+    width: 186px;
+    height: auto;
+
+}
+
+/* color: #c8693a */
