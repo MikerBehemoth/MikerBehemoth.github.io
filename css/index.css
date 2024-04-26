@@ -1,14 +1,15 @@
-* {
-    margin: 0;
+* { margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #6E757D;
+    /* background-color: #6E757D;  */
   }
 
-  .footer__logo {
+.footer__logo {
     width: 186px;
     height: auto;
+  }
 
+.footer__column {
+  background-color: #6E757D;
+  color: aliceblue;
 }
-
-/* color: #c8693a */
