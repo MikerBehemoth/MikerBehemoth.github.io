@@ -1,19 +1,32 @@
-* { margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* background-color: #6E757D;  */
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
 .footer__logo {
-    width: 186px;
-    height: auto;
-  }
+  width: 186px;
+  height: auto;
+}
 
 .footer__column {
-  background-color: #6E757D;
+  background-color: #6e757d;
   color: aliceblue;
+  padding: 10px;
 }
+
 .footer__bottom {
+  padding: 10px;
   background-color: #54595f;
   color: rgb(0, 0, 0);
+}
+
+.social-icon {
+  display: block;
+  padding: 10px;
+}
+
+.social-icons_list {
+  display: flex;
 }
