@@ -5,10 +5,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/* :root {
-  –-bg-color: #6e757d;
-} */
-
 .footer__container {
   background-color: #6e757d;
   padding: 3cap;
@@ -28,6 +24,11 @@
   min-width: 300px;
   width: calc(33.3333% + 0px);
 }
+.footer__column h3 {
+  font-family: "Open Sans", sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+}
 
 .footer__logo {
   width: 186px;
@@ -40,6 +41,7 @@
 
 .footer__column li {
   display: block;
+  font-size: 14px;
   line-height: 160%;
 }
 
@@ -73,5 +75,5 @@
 .footer__bottom a {
   text-decoration: none;
   color: inherit;
-  font-size: 12px;
+  font-size: 10px;
 }
