@@ -54,7 +54,7 @@
 }
 
 .social-icon {
-  display: block;
+  display: flex;
   /* margin: 0 10px 0; */
   padding: 10px;
 }
