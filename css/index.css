@@ -40,6 +40,7 @@
 
 .footer__column li {
   display: block;
+  line-height: 160%;
 }
 
 .footer__links a {
@@ -54,13 +55,13 @@
 
 .social-icon {
   display: block;
-  margin: 0 10px 0;
-  /* padding: 21px; */
+  /* margin: 0 10px 0; */
+  padding: 10px;
 }
 
 .social-icons_list {
   display: flex;
-}
+  }
 
 .footer__bottom {
   text-align: center;
