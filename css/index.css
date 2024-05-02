@@ -5,9 +5,35 @@
   font-family: "Open Sans", sans-serif;
 }
 
+html, body {
+  height: 100%;
+  background-color: rgb(75, 110, 122);
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  /* padding: 30px; */
+  background-image: url(/img/DJI_0035-01-\(1920\).png);
+  background-size: cover;
+  flex: 1 1 auto;
+}
+
 .footer__container {
   background-color: #6e757d;
   padding: 3cap;
+
+    .block__courses {
+    max-width: 1170px;
+    min-width: 320px;
+    }}
+
+.cours img {
+max-width: 320px;
 }
 
 .footer__container__blok {
