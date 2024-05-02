@@ -23,19 +23,22 @@ html, body {
   flex: 1 1 auto;
 }
 
-.footer__container {
-  background-color: #6e757d;
-  padding: 3cap;
-
-    .block__courses {
+.block__courses {
     max-width: 1170px;
     min-width: 320px;
-    }}
+  }
 
 .cours img {
 max-width: 320px;
+padding: 20px;
+display: inline-block;
 }
 
+.footer__container {
+  background-color: #6e757d;
+  padding: 3cap;
+}
+    
 .footer__container__blok {
   margin: auto;
   max-width: 1170px;
