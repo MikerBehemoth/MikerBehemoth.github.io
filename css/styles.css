@@ -1,0 +1,615 @@
+/* styles.css */
+
+/* 1. Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 21px;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* 2. Global headings */
+h2 {
+  font-size: 36px;
+  color: #0C7488;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* 3. Buttons */
+.btn {
+  display: inline-block;
+  min-width: 300px;
+  padding: 12px 6px;
+  background: #0C7488;
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  text-align: center;
+  border: none;
+  margin-top: 90px;
+  transition: background .3s ease;
+}
+.btn:hover {
+  background: #095861;
+}
+
+/* 4. HERO */
+.hero {
+  position: relative;
+  background: url('../img/erp-backgroun.png') left top/cover no-repeat;
+  min-height: 550px;
+}
+.hero header {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.hero header .logo img {
+  max-height: 61.5px;
+}
+.hero header nav {
+  display: flex;
+  gap: 20px;
+}
+.hero header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  padding: 4px 0;
+  transition: all .3s ease;
+}
+.hero header nav a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 0 2px 4px rgba(0,0,0,.3);
+}
+.hero-content {
+  position: absolute;
+  top: 50%; left: 10%;
+  transform: translateY(-50%);
+  color: #fff;
+  max-width: 40%; /* в базі було 60 */
+}
+.hero-content h1 {
+  font-size: 66px;
+  margin-bottom: 10px;
+}
+.hero-content h3 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #fff;
+}
+.hero-content p {
+  font-size: 21px;
+  /* white-space: pre-wrap; */
+}
+
+/* 5. BLOCK 1 */
+.block1 {
+  display: flex;
+  align-items: center;
+  padding: 60px 10%;
+  background: url('../img/pointing-contract.jpg') left top/cover no-repeat;
+  background-color: #fff;
+}
+.block1-text {
+  flex: 1 1 50%;
+  padding-right: 20px;
+}
+.block1-text p {
+  font-size: 21px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+.block1-text .block1-img-element {
+  width: 70%;
+  max-width: 490px;
+  height: auto;
+  display: block;
+  margin-bottom: 60px;
+}
+.block1-text .btn {
+  margin-left: 0;
+}
+.block1-img {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* BLOCK 2 */
+.block2 {
+  display: flex;
+  align-items: stretch;
+  padding: 60px 10%;
+  background: linear-gradient(to right, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0) 100%);
+}
+.block2-text {
+  flex: 1 1 50%;
+}
+.block2-text h2 {
+  font-size: 36px;
+  color: #0C7488;
+  margin-bottom: 20px;
+}
+.block2-text p {
+  font-size: 21px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+.block2-text .btn {
+  /* margin-top: 60px; */
+  margin-left: 0;
+}
+.block2-img {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.block2-img img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+
+/* 6. BLOCK 3 */
+.block3 {
+  display: flex;
+  align-items: stretch;
+  padding: 60px 10%;
+  background: none;
+}
+.block3-text {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+}
+.block3-subtitle {
+  font-size: 24px;
+  color: #0C7488;
+  font-weight: bold;
+  margin: 16px 0 8px;
+}
+.block3-text p {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+.block3-media {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block3-img-element {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 80%;
+  height: auto;
+}
+
+/* 7. BLOCK 4 */
+.block4 {
+  display: flex;
+  align-items: center;
+  padding: 60px 10%;
+  background: url('../img/look-for-change-1c.jpg') left top/cover no-repeat;
+  background-color: #fff;
+}
+.block4-text {
+  flex: 1 1 50%;
+}
+.block4-text p {
+  font-size: 21px;
+  max-width: 100%;
+}
+.block4-text .consultation-btn {
+  margin-top: 60px;
+}
+.block4-media {
+  flex: 1 1 50%;
+}
+
+/* 8. BLOCK 5 */
+.block5 {
+  display: flex;
+  align-items: stretch;
+  padding: 60px 10%;
+  background: none;
+}
+.block5-text {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+}
+.block5-subtitle {
+  font-size: 24px;
+  color: #0C7488;
+  font-weight: bold;
+  margin: 16px 0 8px;
+}
+.block5-text p {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+.block5-media {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block5-img-element {
+  width: calc(100% / 1.5);
+  max-width: 100%;
+  width: 60%;
+  height: auto;
+}
+
+/* 9. BLOCK 6 */
+.block6 {
+  display: flex;
+  align-items: center;
+  padding: 60px 10%;
+  background: url('../img/saft-block6-img.jpg') left top/cover no-repeat;
+  background-color: #fff;
+}
+.block6-text {
+  flex: 1 1 50%;
+}
+.block6-text p {
+  font-size: 21px;
+  max-width: 100%;
+}
+.block6-text .consultation-btn {
+  margin-top: 60px;
+}
+.block6-media {
+  flex: 1 1 50%;
+}
+
+/* XRM-SAF-T UA BLOCK */
+.saft-block {
+  display: flex;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #e6e6e6;
+}
+.saft-block-text {
+  flex: 1 1 50%;
+}
+.saft-block-text p {
+  font-size: 21px;
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+.saft-block-text .consultation-btn {
+  margin-top: 60px;
+}
+.saft-block-media {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.saft-block-img-element {
+  width: calc(100% / 1.5);
+  max-width: 100%;
+  width: 60%;
+  height: auto;
+}
+
+.saft-block-list {
+  list-style-type:disc;
+  padding-left: 1.5em;
+  margin: 20px 0;
+}
+
+.saft-block-list li {
+  font-weight: 700;        /* напівжирний */
+  color: #333;
+  font-size: 21px;
+  line-height: 1.2;        /* між рядками */
+  margin-bottom: 12px;     /* відстань під кожним пунктом */
+}
+
+.saft-block-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 0;
+  justify-content: center;
+}
+
+.saft-card {
+  background-color: #0C7488;
+  color: #d5edff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 222px;
+
+  padding: 30px 20px;
+  border-radius: 0px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.saft-card h4 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.saft-card p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* XRM-SAF-T UA 1-10 BLOCK */
+.saft-block1 {
+  background-color: #ffffff;
+  background: url('../img/saft-block6-img.jpg') left top/cover no-repeat;
+}
+.saft-block2 {
+  background-color: #0C7488;
+    }
+.saft-block2 .saft-block-img-element {
+  width: 40%;
+    }
+.saft-block2 h2 {
+   color: #ffffff;
+    }
+.saft-block2 .saft-block-list li {
+   color: #d5edff;
+}
+.saft-block-list li a {
+  color: #d5edff;
+  text-decoration: none;
+}
+.saft-block-list li a:hover {
+  text-decoration: underline;
+}
+.saft-block3 {
+  background-color: #ffffff;
+}
+.saft-block3 h3 {
+  color: #0C7488;
+}
+.saft-block4 {
+  background-color: #0C7488;
+    }
+.saft-block4 .saft-block-img-element {
+  width: 40%;
+    }
+.saft-block4 h2 {
+   color: #ffffff;
+    }
+.saft-block4 .saft-block-list li {
+   color: #d5edff;
+}
+.saft-block5 {
+  background-color: #ffffff;
+  background: url('../img/saft-block6-img.jpg') left top/cover no-repeat;
+}
+.saft-block6 {
+background-color: #eaeaea;
+background: url('../img/look-for-change-1c.jpg') right top/cover no-repeat;
+}
+.saft-block6 .saft-block-text {
+  flex: 1 1 100%;
+}
+.saft-block6 .btn {
+  background: rgb(158, 236, 0);
+  color: #333333;
+  margin-top: 30px;
+  transition: background .3s ease;
+}
+.saft-block6 .btn:hover {
+  background: rgb(127, 191, 0);
+}
+.saft-block7 {
+  background-color: #bfc4ff;
+}
+/* работать туть */
+
+.saft-block8 {
+  background-color: #facfff;
+}
+.saft-block9 {
+  background-color: #facfff;
+}
+
+/* 9. FOOTER */
+footer {
+  background: #163845;
+  color: #fff;
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 10%;
+  gap: 20px;
+}
+.footer-logo {
+  flex: 1 1 200px;
+}
+.footer-logo img {
+  max-height: 61.5px;
+  margin-bottom: 20px;
+}
+.footer-logo .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.footer-logo .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.footer-logo a {
+  color: #fff;
+  text-decoration: none;
+  transition: color .3s;
+}
+.footer-logo a:hover {
+  color: #ddd;
+}
+.footer-nav {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+}
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color .3s;
+}
+.footer-nav a:hover {
+  color: #ddd;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.footer-social {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 20px;
+}
+.footer-social a img {
+  width: 30px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  transition: filter .3s;
+}
+.footer-social a:hover img {
+  filter: brightness(0.7) invert(1);
+}
+.footer-bottom {
+  background: #0f2a3a;
+  color: rgba(255,255,255,0.7);
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* 10. Responsive – mobile (≤768px) */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 450px;
+  }
+  .hero header {
+    position: static;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 5%;
+  }
+  .hero header nav {
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .hero-content {
+    position: relative;
+    transform: none;
+    left: 5%;
+    max-width: 90%;
+    margin: 12px 0 50px;
+  }
+  .hero-content h1 {
+    font-size: 44px;
+    margin-bottom: 8px;
+  }
+
+  /* Stack all blocks vertically */
+  .block1,
+  .block2,
+  .block3,
+  .block4,
+  .block5,
+  .block6,
+  .saft-block
+  {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+
+  /* BLOCK 3: header, text, image, button */
+  .block3-text,
+  .block3-media {
+    width: 100%;
+  }
+
+  /* BLOCK 4: text full width */
+  .block4-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+
+  /* BLOCK 5 adjustments */
+  .block5-media {
+    margin-top: 20px;
+  }
+  .block5-img-element {
+    width: 55%;
+    margin-top: 30px;
+  }
+
+  .saft-block {
+  display: flex;
+  align-items: center;
+  padding: 60px 10%;
+}
+
+/* За потреби можна копіювати стилі з block6 і редагувати індивідуально */
+
+
+  .btn {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5% 10px;
+  }
+  .footer-nav,
+  .footer-social {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* 11. Responsive – tablet (769–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .block2-img img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
