@@ -441,8 +441,23 @@ background: url('../img/look-for-change-1c.jpg') right top/cover no-repeat;
   background: rgb(127, 191, 0);
 }
 .saft-block7 {
-  background-color: #bfc4ff;
+  background-color: #ef7a7a;
 }
+
+.saft-block8 {
+  background-color: #0C7488;
+    }
+.saft-block8 .saft-block-img-element {
+  width: 40%;
+    }
+.saft-block8 h2 {
+   color: #ffffff;
+    }
+.saft-block8 .saft-block-list li {
+   color: #d5edff;
+}
+
+
 /* работать туть */
 
 .saft-block8 {
