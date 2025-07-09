@@ -383,6 +383,7 @@ h3 {
   background-color: #ffffff;
   background: url('../img/saft-block6-img.jpg') left top/cover no-repeat;
 }
+
 .saft-block2 {
   background-color: #0C7488;
     }
@@ -402,6 +403,15 @@ h3 {
 .saft-block-list li a:hover {
   text-decoration: underline;
 }
+.saft-block2 img {  width: 100%;
+  color: cadetblue;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
 .saft-block3 {
   background-color: #ffffff;
 }
@@ -441,7 +451,7 @@ background: url('../img/look-for-change-1c.jpg') right top/cover no-repeat;
   background: rgb(127, 191, 0);
 }
 .saft-block7 {
-  background-color: #ef7a7a;
+  background-color: #f4f4f4;
 }
 
 .saft-block8 {
@@ -457,14 +467,14 @@ background: url('../img/look-for-change-1c.jpg') right top/cover no-repeat;
    color: #d5edff;
 }
 
+/* | работать туть | */
 
-/* работать туть */
-
-.saft-block8 {
-  background-color: #facfff;
-}
 .saft-block9 {
-  background-color: #facfff;
+  background-color: #ffffff;
+}
+
+.saft-block9 h3 {
+  color: #0C7488;
 }
 
 /* 9. FOOTER */
