@@ -100,6 +100,20 @@ h3 {
   /* white-space: pre-wrap; */
 }
 
+/* Наші контакти стилізація */
+.contact-links a {
+  color: #fff;
+  line-height: 1.8;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.contact-links a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 0 2px 4px rgba(0,0,0,.3);
+}
+
 /* 5. BLOCK 1 */
 .block1 {
   display: flex;
