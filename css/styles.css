@@ -75,7 +75,8 @@ h3 {
   transition: all .3s ease;
 }
 .hero header nav a:hover {
-  font-weight: bold;
+  /* font-weight: bold; */
+  color: #55f4ff;
   text-decoration: underline;
   text-shadow: 0 2px 4px rgba(0,0,0,.3);
 }
@@ -404,13 +405,11 @@ h3 {
   text-decoration: underline;
 }
 .saft-block2 img {  width: 100%;
-  color: cadetblue;
+  color: #5f9ea0;
   max-width: 200px;
   height: auto;
   margin: 0 auto;
 }
-
-
 
 .saft-block3 {
   background-color: #ffffff;
@@ -497,6 +496,13 @@ footer {
   max-height: 61.5px;
   margin-bottom: 20px;
 }
+
+.footer-logo img:hover {
+  transform: scale(1.05);
+  transition: transform .3s ease;
+  filter: drop-shadow(0px 0px 4px #00b19f);
+}
+
 .footer-logo .contact-item {
   display: flex;
   align-items: center;
@@ -514,6 +520,7 @@ footer {
 }
 .footer-logo a:hover {
   color: #ddd;
+  color: #55ffee;
 }
 .footer-nav {
   flex: 1 1 200px;
@@ -529,8 +536,10 @@ footer {
 }
 .footer-nav a:hover {
   color: #ddd;
-  text-decoration: underline;
-  font-weight: bold;
+  /* text-decoration: underline; */
+  color: #55ffee;
+  /* font-weight: bold; */
+  
 }
 .footer-social {
   flex: 0 0 auto;
@@ -538,14 +547,18 @@ footer {
   gap: 20px;
 }
 .footer-social a img {
-  width: 30px;
+  width: 32px;
   height: auto;
   filter: brightness(0) invert(1);
   transition: filter .3s;
+
 }
 .footer-social a:hover img {
-  filter: brightness(0.7) invert(1);
-}
+  transform: scale(1.1);
+  filter: brightness(0.7) invert(1) drop-shadow(0px 0px 6px #55ffee);;
+  transition: transform .3s ease;
+  }
+
 .footer-bottom {
   background: #0f2a3a;
   color: rgba(255,255,255,0.7);
