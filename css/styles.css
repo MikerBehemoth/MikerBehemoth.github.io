@@ -476,6 +476,13 @@ background: url('../img/look-for-change-1c.jpg') right top/cover no-repeat;
   color: #0C7488;
 }
 
+.privacy-block1 h2{
+  color: #ffffff;
+}
+.privacy-block1 h3{
+  color: #0C7488;;
+}
+
 /* 9. FOOTER */
 footer {
   background: #163845;
