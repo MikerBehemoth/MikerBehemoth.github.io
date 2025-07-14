@@ -387,14 +387,14 @@ h3 {
 /* XRM-SAF-T UA 1-10 BLOCK */
 .saft-block1 {
   background-color: #ffffff;
-  background: url('../img/saft-block6-img.jpg') left top/cover no-repeat;
+  background: url('../img/happy-brunette.png') left top/cover no-repeat;
 }
 
 .saft-block2 {
   background-color: #0C7488;
     }
 .saft-block2 .saft-block-img-element {
-  width: 40%;
+  width: 100%;
     }
 .saft-block2 h2 {
    color: #ffffff;
@@ -411,7 +411,7 @@ h3 {
 }
 .saft-block2 img {  width: 100%;
   color: #5f9ea0;
-  max-width: 200px;
+  max-width: 440px;
   height: auto;
   margin: 0 auto;
 }
