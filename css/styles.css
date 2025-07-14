@@ -125,7 +125,7 @@ h3 {
   display: flex;
   align-items: center;
   padding: 60px 10%;
-  background: url('../img/pointing-contract.jpg') left top/cover no-repeat;
+  background: url('../img/pointing-contract.png') left top/cover no-repeat;
   background-color: #fff;
 }
 .block1-text {
@@ -232,7 +232,7 @@ h3 {
   display: flex;
   align-items: center;
   padding: 60px 10%;
-  background: url('../img/look-for-change-1c.jpg') left top/cover no-repeat;
+  background: url('../img/welcome-sign.png') left top/cover no-repeat;
   background-color: #fff;
 }
 .block4-text {
@@ -440,7 +440,7 @@ h3 {
 }
 .saft-block6 {
 background-color: #eaeaea;
-background: url('../img/look-for-change-1c.jpg') right top/cover no-repeat;
+background: url('../img/look-for-change-1c.png') right top/cover no-repeat;
 }
 .saft-block6 .saft-block-text {
   flex: 1 1 100%;
