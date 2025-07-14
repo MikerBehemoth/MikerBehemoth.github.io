@@ -63,6 +63,11 @@ h3 {
 .hero header .logo img {
   max-height: 61.5px;
 }
+.hero header .logo img:hover {
+  transform: scale(1.05);
+  transition: transform .3s ease;
+  filter: drop-shadow(0px 0px 4px #00b19f);
+}
 .hero header nav {
   display: flex;
   gap: 20px;
@@ -77,8 +82,8 @@ h3 {
 .hero header nav a:hover {
   /* font-weight: bold; */
   color: #55f4ff;
-  text-decoration: underline;
-  text-shadow: 0 2px 4px rgba(0,0,0,.3);
+  /* text-decoration: underline; */
+  text-shadow: 0px 0px 6px rgba(0,0,0,.8);
 }
 .hero-content {
   position: absolute;
